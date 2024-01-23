@@ -5,9 +5,9 @@ const ServerComponent = ({pageParams, pageSearchParams = {}}) => {
     const headersList = headers();
     const nextUrl = headersList.get('next-url') || "";
 
-    headersList.forEach((value, key) => {
-        console.log(key, value);
-    });
+    // headersList.forEach((value, key) => {
+    //     console.log(key, value);
+    // });
 
     return <div className="serverComponent">
 
